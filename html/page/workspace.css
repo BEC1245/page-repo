@@ -4,7 +4,7 @@ body {
     overflow: hidden;
 }
 
-header {
+.header {
     margin: 10px;
     height: max-content;
 }

@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.sub-container {
+    width: 100vw;
+    min-width: calc(100vw - 50px);
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+
+    padding: 5px;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    background-image: url(images/hamburger.webp);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.layout {
+    width: 50px;
+    height: 100vh;
+    display: none;
+}
+
+.content {
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: rgb(255, 53, 53);
+}
+
+.header {
+    margin: 10px;
+    margin-top: 0px;
+    height: max-content;
+}
+
+.title {
+    width: max-content;
+    height: 70px;
+    padding: 5px 20px;
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
